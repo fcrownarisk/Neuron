@@ -1,18 +1,5 @@
 #include <math.h>
 #include <time.h>
-
-short main(int argc,char *argv[]){
-   
-}
-int main(){
-   
-}
-float argc(){
-   
-}
-double argv(){
-  
-}
 void init_cell(){
     function basic_unit(){
         fx1 = w1x1 + w2x2 + w3x3
@@ -66,4 +53,16 @@ unsigned RETURN(demension = alphabet_size*2){
    return t11 * exp(N + f) + t0 * log(N - a);
    return t11 * exp(N + a) + t0 * log(N - f);
    }
+}
+short main(int argc,char *argv[]){
+   
+}
+int main(){
+   
+}
+float argc(){
+   
+}
+double argv(){
+  
 }
