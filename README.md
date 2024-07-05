@@ -7,7 +7,7 @@ this is a huge challeage to make great progress on the topic of producing a prod
 
 We use iterator to generate almost endless neurons in the void space either by C language or BASIC language,
 But not attach components in abtriary vector spacetime,we have to contice it's true that we should not load neuron in CPU or GPU which means we need the usage
-of CPU and GPU 0 % in reality world
+of CPU and GPU are 0 % in reality world
 
 Firstly,we need a init function such as sigmoid function  
     1 / 1 + Math.exp(-1),
