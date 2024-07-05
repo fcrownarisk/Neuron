@@ -56,7 +56,7 @@ unsigned RETURN(){
    }
    void N(){
       int t11,t0; 
-   return t11 * (N + f) + t0 * (N - a) 
-   return t11 * (N + a) + t0 * (N - f)
+   return t11 * exp(N + f) + t0 * log(N - a);
+   return t11 * exp(N + a) + t0 * log(N - f);
    }
 }
