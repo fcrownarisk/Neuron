@@ -1,5 +1,5 @@
 # Neuron-Network
-first declare a module based on a perfect sphere in a Visuable Coordinate,
+first declare a module based on a perfect sphere in a Visuable Coordinate can be regarded as a dot Shape
 
 A Human being has at least 860 0000 0000 neuron in everybody's head
 
