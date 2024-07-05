@@ -19,7 +19,9 @@ void init_cell(){
     }
 }
 void activate_neuron(){
-   function
+   function sigmoid(){
+     fx3 =  1 / 1 + exp(-1)
+ }
 }
 signed iteration(){
       
