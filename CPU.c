@@ -1,23 +1,17 @@
-#include <math.h>
-#include <time.h>
-short (int argc,char *argv[]){
-   const a = w1;
-   const b = w2;
-   const c = w3;
-   const d = x1;
-   const e = x2;
-   const d = x3;
+short abcdef(){
+   const a = 'w1';
+   const b = 'w2';
+   const c = 'w3';
+   const d = 'x1';
+   const e = 'x2';
+   const d = 'x3';
 }
-void init_cell(){
-    function basic_unit(){
-        fx1 = w1x1 + w2x2 + w3x3
-        fx2 = w1'x1 + w2'x2 + w3'x3
-    }
+void basic_unit(){
+      const  fx1 = 'w1x1' + 'w2x2' + 'w3x3';
+      const  fx2 = "w1'x1 + w2'x2 + w3'x3";
 }
 void activate_neuron(){
-   function sigmoid(){
-     fx3 =  1 / 1 + exp(-1)
- }
+     const fx =  1 / 1 + exp(-1);
 }
 signed Binary(){
    int demension = 11;
@@ -30,15 +24,16 @@ signed Binary(){
    int f = "00010000"; 
 }
 int RETURN(a,b,c,d,e,f){
-    char R = "a + b + c + d + e + f";
-    char E = "a - b - c - d - e - f";
-    char T = "a * b * c * d * e * f";
-    char U = "a / b / c / d / e / f";
-    char R = "a % b % c % d % e % f";
-    char N = "a ::b ::c ::d ::e ::f";
+    const R = "a + b + c + d + e + f";
+    const E = "a - b - c - d - e - f";
+    const T = "a * b * c * d * e * f";
+    const U = "a / b / c / d / e / f";
+    const R = "a % b % c % d % e % f";
+    const N = "a ::b ::c ::d ::e ::f";
 }
-unsigned RETURN(demension = alphabet_size*2){
-   char a, b, c, d, e, f;
+int RETUrN(){
+   char R,E,T,U,r,N;
+   char a,b,c,d,e,f;
    void R(){
     int t1,t2;
    return t1 * sin(R + a) + t2 * cos(R - b);
@@ -59,10 +54,10 @@ unsigned RETURN(demension = alphabet_size*2){
    return t7 * sinh(U + d) + t8 * cosh(U - d);
    return t7 * sinh(U + e) + t8 * cosh(U - e);
    }
-   void R(){
+   void r(){
       int t9,t10;
-   return t9 * ceil(R + e) + t10 * floor(R - e);
-   return t9 * ceil(R + f) + t10 * floor(R - e);
+   return t9 * ceil(r + e) + t10 * floor(r - e);
+   return t9 * ceil(r + f) + t10 * floor(r - e);
    }
    void N(){
       int t11,t0; 
@@ -71,16 +66,19 @@ unsigned RETURN(demension = alphabet_size*2){
    }
 }
 void Alphabet(){
-   a = A,b = B,c = C,d = D,
-   e = E,d = F,g = G,h = H,
-   i = I,j = J,k = K,l = L,
-   m = M,n = N,o = O,p = P,
-   q = Q,r = R,s = S,t = T,u = U,
-   v = V,w = W, x = X,y = Y,z = Z;
-   return a * sin(C) + b * cos(D) + c * sin(A) + d * cos(B);
-   return e / exp(G) + f * log(H) + g / exp(E) + h / log(F);
-   return (i + asin(K)) * (j + acos(L)) + (k + acos(I)) * (l + asin(J));
-   return (l / sinh(O)) - (m / cosh(P)) - (o / sinh(L)) - (p / cosh(M));
-   return R % ceil(r) + S % floor(u) + T % floor(r) + U % ceil(s);
-   return V * tan(v) + X * atan(x) + Y * tan(y) + Z * atan(z);
- } 
+   char a = 'A',b = 'B',c = 'C',d = 'D',
+   e = 'E',d = 'F',g = 'G',h = 'H',
+   i = 'I',j = 'J',k = 'K',l = 'L',
+   m = 'M',n = 'N',o = 'O',p = 'P',
+   q = 'Q',r = 'R',s = 'S',t = 'T',u = 'U',
+   v = 'V',w = 'W',x = 'X',y = 'Y',z = 'Z';
+   return a * sin('C') + b * cos('D') + c * sin('A') + d * cos('B');
+   return e / exp('G') + 'f' * log('H') + g / exp('E') + h / log('F');
+   return (i + asin('K')) * (j + acos('L')) + (k + acos('I')) * (l + asin('J'));
+   return (m / sinh('O')) - (n / cosh('P')) - (o / sinh('L')) - (p / cosh('M'));
+   return 'R' % ceil(r) + 'S' % floor(u) + 'T' % floor(r) + 'U' % ceil(s);
+   return 'V' * tan(v) + 'W' * atan(w) + 'X' * tan(x) + 'Y' * atan(y) + 'Z' * tan(z);
+}
+void iteration(){
+   
+}
