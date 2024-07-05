@@ -12,8 +12,8 @@ double argv(){
 }
 void init_cell(){
     function basic_unit(){
-        fx = w1x1 + w2x2 + w3x3
-       
+        fx1 = w1x1 + w2x2 + w3x3
+        fx2 = w1'x1 + w2'x2 + w3'x3
     }
 }
 void activate_neuron(){
