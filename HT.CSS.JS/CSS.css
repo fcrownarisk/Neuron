@@ -1,0 +1,19 @@
+.Calculator .display{
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    text-align: right;
+}
+.Calculator1 .display{
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    text-align: right;
+}
+.Calculator2 .buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}

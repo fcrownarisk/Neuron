@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单计算器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* 设置字体 */
+        }
+        .calculator {
+            width: 300px; /* 设置计算器宽度 */
+            margin: 0 auto; /* 设置居中显示 */
+            border: 1px solid #ccc; /* 设置边框 */
+            padding: 10px; /* 设置内边距 */
+            background: #f4f4f4; /* 设置背景色 */
+        }
+        .row {
+            margin-bottom: 10px; /* 设置行间距 */
+        }
+        .row input[type="text"] {
+            width: 100%; /* 设置输入框宽度 */
+            padding: 5px; /* 设置输入框内边距 */
+            font-size: 16px; /* 设置输入框字体大小 */
+            border: 1px solid #ccc; /* 设置输入框边框 */
+        }
+        .button-row button {
+            width: 23%; /* 设置按钮宽度 */
+            padding: 10px; /* 设置按钮内边距 */
+            font-size: 16px; /* 设置按钮字体大小 */
+            border: none; /* 设置无边框 */
+            background: #eee; /* 设置按钮背景色 */
+            cursor: pointer; /* 设置鼠标样式 */
+        }
+        .button-row button:hover {
+            background: #ddd; /* 鼠标悬停时的按钮背景色 */
+        }
+        .button-row .orange {
+            background: orange; /* 橙色按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+        }
+        .button-row .orange:hover {
+            background: darkorange; /* 鼠标悬停时的橙色按钮背景色 */
+        }
+        .frame {
+            border: 1px solid #ccc; /* 设置框架边框 */
+            padding: 10px; /* 设置框架内边距 */
+            margin-top: 10px; /* 设置框架上边距 */
+            background: white; /* 设置框架背景色 */
+            text-align: right; /* 设置文本对齐方式 */
+            font-size: 16px; /* 设置文本字体大小 */
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="row">
+            <type="text" id="display" disabled>
+        </div>
+        <div class="button-row">
+            <button onclick="appendToDisplay('7')">7</button> <!-- 数字7 -->
+            <button onclick="appendToDisplay('8')">8</button> <!-- 数字8 -->
+            <button onclick="appendToDisplay('9')">9</button> <!-- 数字9 -->
+            <button class="orange" onclick="appendToDisplay('/')">/</button> <!-- 除号 -->
+        </div>
+        <div class="button-row">
+            <button onclick="appendToDisplay('4')">4</button> <!-- 数字4 -->
+            <button onclick="appendToDisplay('5')">5</button> <!-- 数字5 -->
+            <button onclick="appendToDisplay('6')">6</button> <!-- 数字6 -->
+            <button class="orange" onclick="appendToDisplay('*')">*</button> <!-- 乘号 -->
+        </div>
+        <div class="button-row">
+            <button onclick="appendToDisplay('1')">1</button> <!-- 数字1 -->
+            <button onclick="appendToDisplay('2')">2</button> <!-- 数字2 -->
+            <button onclick="appendToDisplay('3')">3</button> <!-- 数字3 -->
+            <button class="orange" onclick="appendToDisplay('-')">-</button> <!-- 减号 -->
+        </div>
+        <div class="button-row">
+            <button onclick="appendToDisplay('0')">0</button> <!-- 数字0 -->
+            <button onclick="appendToDisplay('.')">.</button> <!-- 小数点 -->
+            <button class="orange" onclick="calculate()">=</button> <!-- 等号 -->
+            <button class="orange" onclick="appendToDisplay('+')">+</button> <!-- 加号 -->
+            <button onclick="clearDisplay()">C</button> <!-- 清除按钮 -->
+            <button onclick="appendToDisplay('(')">(</button> <!-- 左括号 -->
+            <button onclick="appendToDisplay(')')">)</button> <!-- 右括号 -->
+            <button onclick="appendToDisplay('sqrt(')">√</button> <!-- 平方根 -->
+        </div>
+        <div class="frame">
+            <span id="number"></span> <!-- 显示输入的数字 -->
+            <br>
+            <span id="result"></span> <!-- 显示计算结果 -->
+        </div>
+    </div>
+    <script>
+        function appendToDisplay(value) {
+            var display = document.getElementById("display");
+            display.value += value;
+            updateNumberAndResult();
+        }
+
+        function calculate() {
+            var display = document.getElementById("display");
+            try {
+                var result = eval(display.value);
+                display.value = result;
+                updateNumberAndResult();
+            } catch (error) {
+                display.value = "错误";
+                updateNumberAndResult();
+            }
+        }
+
+        function clearDisplay() {
+            var display = document.getElementById("display");
+            display.value = '';
+            updateNumberAndResult();
+        }
+
+        function updateNumberAndResult() {
+            var display = document.getElementById("display");
+            var numberElement = document.getElementById("number");
+            var resultElement = document.getElementById("result");
+
+            numberElement.textContent = display.value; // 更新显示的数字
+            resultElement.textContent = display.value; // 更新显示的结果
+        }
+    </script>
+</body>
+</html>
