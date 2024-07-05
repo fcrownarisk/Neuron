@@ -34,7 +34,7 @@ signed iteration(){
    int e = "00001111";
    int f = "00010000"; 
 }
-unsigned RETURN(){
+unsigned RETURN(demension = alphabet_size*2){
    char a, b, c, d, e, f;
    void R(){
     int t1,t2;
