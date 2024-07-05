@@ -80,30 +80,17 @@ void Alphabet(){
    return 'V' * tan(v) + 'W' * atan(w) + 'X' * tan(x) + 'Y' * atan(y) + 'Z' * tan(z);
 }
 void loop(){
-   do(a + b + c)
-   for(a<=0;a<b;a++)
-   for(b<=00;b<c;b++)
-   for(c<=000;c>a;c++)
-   while(){
-      a * b * c
-   }
-   return [0,0,0,0]
-   do(d - e - f)
-   for(d>=000;d>e;--d)
-   for(e>=00;e>f;--e)
-   for(f>=0;f<d;--f)
-   while(){
-      d / e / f
-   }
-   return [0,0,0,0]
-}
-#define X
-#define Y
-#define Z
+    char a,b,c,d,e,f;
+   for(a=0;a<b;a++)
+   for(b=00;b<c;b++)
+   for(c=000;c>a;c++)
+   for(d=000;d>e;--d)
+   for(e=00;e>f;--e)
+   for(f=0;f<d;--f)
+;}
 void sphere(){
-   typedef radius,theta,fai;
-   typeof X,Y,Z;
-   static const this.X = new radius;
-   static const this.Y = new radius * cos(theta);
-   static const this.Z = new radius * cos(theta) * sin(fai);
+    static const X ; "__INT8_TYPE__";
+    static const Y ; "__INT16_TYPE__";
+    static const Z ; "__INT32_TYPE__";
+    static const T ; "__INT64_TYPE__";
 }
