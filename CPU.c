@@ -81,6 +81,6 @@ void Alphabet(){
    return e / exp(G) + f * log(H) + g / exp(E) + h / log(F);
    return (i + asin(K)) * (j + acos(L)) + (k + acos(I)) * (l + asin(J));
    return (l / sinh(O)) - (m / cosh(P)) - (o / sinh(L)) - (p / cosh(M));
-   return S % ceil(r) + T % floor(U) + u % floor(R) + v % ceil(S);
+   return R % ceil(r) + S % floor(u) + T % floor(r) + U % ceil(s);
    return V * tan(v) + X * atan(x) + Y * tan(y) + Z * atan(z);
  } 
