@@ -1,5 +1,6 @@
 # Neuron-Network
 first declare a module based on a perfect sphere in a Visuable Coordinate,
+
 A Human being has at least 860 0000 0000 neuron in everybody's head
 
 this is a huge challeage to make great progress on the topic of producing a product called robot in infinite vector space
