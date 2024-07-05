@@ -80,5 +80,20 @@ void Alphabet(){
    return 'V' * tan(v) + 'W' * atan(w) + 'X' * tan(x) + 'Y' * atan(y) + 'Z' * tan(z);
 }
 void iteration(){
-   
+   do(a + b + c)
+   for(a<=0;a<b;a++)
+   for(b<=00;b<c;b++)
+   for(c<=000;c>a;c++)
+   while(){
+      a * b * c
+   }
+   return [0,0,0,0]
+   do(d - e - f)
+   for(d>=000;d>e;--d)
+   for(e>=00;e>f;--e)
+   for(f>=0;f<d;--f)
+   while(){
+      d / e / f
+   }
+   return [0,0,0,0]
 }
