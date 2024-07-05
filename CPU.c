@@ -70,3 +70,17 @@ unsigned RETURN(demension = alphabet_size*2){
    return t11 * exp(N + a) + t0 * log(N - f);
    }
 }
+void Alphabet(){
+   a = A,b = B,c = C,d = D,
+   e = E,d = F,g = G,h = H,
+   i = I,j = J,k = K,l = L,
+   m = M,n = N,o = O,p = P,
+   q = Q,r = R,s = S,t = T,u = U,
+   v = V,w = W, x = X,y = Y,z = Z;
+   return a * sin(C) + b * cos(D) + c * sin(A) + d * cos(B);
+   return e / exp(G) + f * log(H) + g / exp(E) + h / log(F);
+   return (i + asin(K)) * (j + acos(L)) + (k + acos(I)) * (l + asin(J));
+   return (l / sinh(O)) - (m / cosh(P)) - (o / sinh(L)) - (p / cosh(M));
+   return S % ceil(r) + T % floor(U) + u % floor(R) + v % ceil(S);
+   return V * tan(v) + X * atan(x) + Y * tan(y) + Z * atan(z);
+ } 
