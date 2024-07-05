@@ -11,6 +11,14 @@ void activate_neuron(){
      fx3 =  1 / 1 + exp(-1)
  }
 }
+short (int argc,char *argv[]){
+   const a = w1;
+   const b = w2;
+   const c = w3;
+   const d = x1;
+   const e = x2;
+   const d = x3;
+}
 signed iteration(){
    int demension = 11;
    int alphabet_size = 6;
@@ -20,6 +28,14 @@ signed iteration(){
    int d = "00001110";
    int e = "00001111";
    int f = "00010000"; 
+}
+int RETURN(a,b,c,d,e,f){
+    char R = "a + b + c + d + e + f";
+    char E = "a - b - c - d - e - f";
+    char T = "a * b * c * d * e * f";
+    char U = "a / b / c / d / e / f";
+    char R = "a % b % c % d % e % f";
+    char N = "a ::b ::c ::d ::e ::f";
 }
 unsigned RETURN(demension = alphabet_size*2){
    char a, b, c, d, e, f;
@@ -53,16 +69,4 @@ unsigned RETURN(demension = alphabet_size*2){
    return t11 * exp(N + f) + t0 * log(N - a);
    return t11 * exp(N + a) + t0 * log(N - f);
    }
-}
-short main(int argc,char *argv[]){
-   
-}
-int main(){
-   
-}
-float argc(){
-   
-}
-double argv(){
-  
 }
