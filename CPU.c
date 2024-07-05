@@ -79,7 +79,7 @@ void Alphabet(){
    return 'R' % ceil(r) + 'S' % floor(u) + 'T' % floor(r) + 'U' % ceil(s);
    return 'V' * tan(v) + 'W' * atan(w) + 'X' * tan(x) + 'Y' * atan(y) + 'Z' * tan(z);
 }
-void iteration(){
+void loop(){
    do(a + b + c)
    for(a<=0;a<b;a++)
    for(b<=00;b<c;b++)
@@ -96,4 +96,14 @@ void iteration(){
       d / e / f
    }
    return [0,0,0,0]
+}
+#define X
+#define Y
+#define Z
+void sphere(){
+   typedef radius,theta,fai;
+   typeof X,Y,Z;
+   static const this.X = new radius;
+   static const this.Y = new radius * cos(theta);
+   static const this.Z = new radius * cos(theta) * sin(fai);
 }
