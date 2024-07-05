@@ -1,3 +1,5 @@
+#include <math.h>
+#include <time.h>
 short main(int argc,char *argv[]){
    
 }
