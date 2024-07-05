@@ -1,5 +1,13 @@
 #include <math.h>
 #include <time.h>
+short (int argc,char *argv[]){
+   const a = w1;
+   const b = w2;
+   const c = w3;
+   const d = x1;
+   const e = x2;
+   const d = x3;
+}
 void init_cell(){
     function basic_unit(){
         fx1 = w1x1 + w2x2 + w3x3
@@ -10,14 +18,6 @@ void activate_neuron(){
    function sigmoid(){
      fx3 =  1 / 1 + exp(-1)
  }
-}
-short (int argc,char *argv[]){
-   const a = w1;
-   const b = w2;
-   const c = w3;
-   const d = x1;
-   const e = x2;
-   const d = x3;
 }
 signed iteration(){
    int demension = 11;
@@ -52,7 +52,7 @@ unsigned RETURN(demension = alphabet_size*2){
    void T(){
      int t5,t6;
    return t5 * tan(T + c) + t6 * atan(T - d); 
-   return t6 * tan(T + d) + t5 * atan(T - c);  
+   return t5 * tan(T + d) + t6 * atan(T - c);  
    }
    void U(){
      int t7,t8;
