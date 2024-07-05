@@ -30,8 +30,8 @@ unsigned RETURN(){
    }
    void E(){
      int t3,t4;
-   return t3 * asin(R + b) + t4 * acos(R - c);
-   return t3 * acos(R + c) + t4 * asin(R - b);
+   return t3 * asin(E + b) + t4 * acos(E - c);
+   return t3 * acos(E + c) + t4 * asin(E - b);
    }
    void T(){
      int t5,t6;
