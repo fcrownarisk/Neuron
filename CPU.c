@@ -19,7 +19,7 @@ void activate_neuron(){
      fx3 =  1 / 1 + exp(-1)
  }
 }
-signed iteration(){
+signed Binary(){
    int demension = 11;
    int alphabet_size = 6;
    int a = "00001011";
