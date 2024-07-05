@@ -20,9 +20,11 @@ void activate_neuron(){
    function
 }
 signed iteration(){
+      
     
 }
 unsigned RETURN(){
+   char a, b, c, d, e, f;
    void R(){
     int t1,t2;
    return t1 * sin(R + a) + t2 * cos(R - b);
