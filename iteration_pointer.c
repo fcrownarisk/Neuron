@@ -29,7 +29,6 @@ int*** create_3d_array(int rows, int cols, int depth) {
     }
     return array;
 }
-
 void destroy_3d_array(int*** array, int rows, int cols) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
