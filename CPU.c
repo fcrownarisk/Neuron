@@ -1,5 +1,6 @@
 #include <math.h>
 #include <time.h>
+
 short main(int argc,char *argv[]){
    
 }
@@ -7,7 +8,7 @@ int main(){
    
 }
 float argc(){
-  
+   
 }
 double argv(){
   
@@ -24,8 +25,14 @@ void activate_neuron(){
  }
 }
 signed iteration(){
-      
-    
+   int demension = 11;
+   int alphabet_size = 6;
+   int a = "00001011";
+   int b = "00001100";
+   int c = "00001101";
+   int d = "00001110";
+   int e = "00001111";
+   int f = "00010000"; 
 }
 unsigned RETURN(){
    char a, b, c, d, e, f;
