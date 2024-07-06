@@ -23,6 +23,40 @@ signed Binary(){
    int e = "00001111";
    int f = "00010000"; 
 }
+int RETUrN(){
+   char R,E,T,U,r,N;
+   char a,b,c,d,e,f;
+   void R();{
+    int t1,t2;
+   return t1 * sin(R + a) + t2 * cos(R - b);
+   return t1 * cos(R + b) + t2 * sin(R - a);
+   }
+   void E();{
+     int t3,t4;
+   return t3 * asin(E + b) + t4 * acos(E - c);
+   return t3 * acos(E + c) + t4 * asin(E - b);
+   }
+   void T();{
+     int t5,t6;
+   return t5 * tan(T + c) + t6 * atan(T - d); 
+   return t5 * tan(T + d) + t6 * atan(T - c);  
+   }
+   void U();{
+     int t7,t8;
+   return t7 * sinh(U + d) + t8 * cosh(U - d);
+   return t7 * sinh(U + e) + t8 * cosh(U - e);
+   }
+   void r();{
+      int t9,t10;
+   return t9 * ceil(r + e) + t10 * floor(r - e);
+   return t9 * ceil(r + f) + t10 * floor(r - e);
+   }
+   void N();{
+      int t11,t0; 
+   return t11 * exp(N + f) + t0 * log(N - a);
+   return t11 * exp(N + a) + t0 * log(N - f);
+   }
+}
 int RETURN(a,b,c,d,e,f){
     const R = "a + b + c + d + e + f";
     const E = "a - b - c - d - e - f";
@@ -30,40 +64,6 @@ int RETURN(a,b,c,d,e,f){
     const U = "a / b / c / d / e / f";
     const R = "a % b % c % d % e % f";
     const N = "a ::b ::c ::d ::e ::f";
-}
-int RETUrN(){
-   char R,E,T,U,r,N;
-   char a,b,c,d,e,f;
-   void R(){
-    int t1,t2;
-   return t1 * sin(R + a) + t2 * cos(R - b);
-   return t1 * cos(R + b) + t2 * sin(R - a);
-   }
-   void E(){
-     int t3,t4;
-   return t3 * asin(E + b) + t4 * acos(E - c);
-   return t3 * acos(E + c) + t4 * asin(E - b);
-   }
-   void T(){
-     int t5,t6;
-   return t5 * tan(T + c) + t6 * atan(T - d); 
-   return t5 * tan(T + d) + t6 * atan(T - c);  
-   }
-   void U(){
-     int t7,t8;
-   return t7 * sinh(U + d) + t8 * cosh(U - d);
-   return t7 * sinh(U + e) + t8 * cosh(U - e);
-   }
-   void r(){
-      int t9,t10;
-   return t9 * ceil(r + e) + t10 * floor(r - e);
-   return t9 * ceil(r + f) + t10 * floor(r - e);
-   }
-   void N(){
-      int t11,t0; 
-   return t11 * exp(N + f) + t0 * log(N - a);
-   return t11 * exp(N + a) + t0 * log(N - f);
-   }
 }
 void Alphabet(){
    char a = 'A',b = 'B',c = 'C',d = 'D',
@@ -88,19 +88,21 @@ void loop(){
    for(e=00;e>f;--e)
    for(f=0;f<d;--f)
 ;}
-void sphere(){
+void sphere(){    
+    int radius,theta,fai;
     static const X ; "__INT8_TYPE__";
     static const Y ; "__INT16_TYPE__";
     static const Z ; "__INT32_TYPE__";
     static const T ; "__INT64_TYPE__";
-}
+    typedef X ; radius ;
+    typedef Y ; radius * cos(theta);
+    typedef Z ; radius * cos(theta) * sin(fai);
+    typedef T ; radius * cos(theta) * cos(fai);
+ }
+#define size 4096
 void iteration(){
-   int (*array) = malloc(3 * 3 * 3 * sizeof(int));[3]
-void 3DArray(int (*array), int size) {[3]
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            for (int k = 0; k < size; k++) 
-        }
-    }
-}
-}
+      for (int i = 0; i <= size; i++)
+      for (int j = 0; j <= size; j++)
+      for (int k = 0; k <= size; k++)
+      return 0
+;}
