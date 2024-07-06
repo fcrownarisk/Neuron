@@ -4,14 +4,24 @@ short abcdef(){
    const c = 'w3';
    const d = 'x1';
    const e = 'x2';
-   const d = 'x3';
+   const f = 'x3';
+   const g = 'y1';
+   const h = 'y2';
+   const i = 'y3';
+   const j = 'z1';
+   const k = 'z2';
+   const l = 'z3';
 }
 void basic_unit(){
+   void activate_neuron();{
+     const fx =  1 / 1 + exp(-1);
+}
       const  fx1 = 'w1x1' + 'w2x2' + 'w3x3';
       const  fx2 = "w1'x1 + w2'x2 + w3'x3";
-}
-void activate_neuron(){
-     const fx =  1 / 1 + exp(-1);
+      const  fx3 = 'w1y1' + 'w2y2' + 'w3y3';
+      const  fx4 = "w1'y1 + w2'y2 + w3'y3";
+      const  fx5 = 'w1z1' + 'w2z2' + 'w3z3';
+      const  fx6 = "w1'z1 + w2'z2 + w3'z3";
 }
 signed Binary(){
    int demension = 11;
