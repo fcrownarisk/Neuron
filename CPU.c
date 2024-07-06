@@ -39,12 +39,12 @@ int RETUrN(){
    void T();{
      int t5,t6;
    return t5 * tan(T + c) + t6 * atan(T - d); 
-   return t5 * tan(T + c) + t6 * atan(T - d);  
+   return t5 * atan(T + c) + t6 * tan(T - d);  
    }
    void U();{
      int t7,t8;
    return t7 * sinh(U + d) + t8 * cosh(U - d);
-   return t7 * sinh(U + e) + t8 * cosh(U - e);
+   return t7 * cosh(U + e) + t8 * sinh(U - e);
    }
    void r();{
       int t9,t10;
