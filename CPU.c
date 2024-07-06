@@ -105,30 +105,30 @@ void iteration(){
       for (int b = 0; b <= size; b++)
       for (int c = 0; c <= size; c++)
       for (int d = 0; d <= size; d++)
-
+      return 0;
       for (int e = 0; e <= size; e++)
       for (int f = 0; f <= size; f++)
       for (int g = 0; g <= size; g++)
       for (int h = 0; h <= size; h++)
-
+      return 0;
       for (int i = 0; i <= size; i++)
       for (int j = 0; j <= size; j++)
       for (int k = 0; k <= size; k++)
       for (int l = 0; l <= size; l++)
-
+      return 0;
       for (int m = 0; m <= size; m++)
       for (int n = 0; n <= size; n++)
       for (int o = 0; o <= size; o++)
       for (int p = 0; p <= size; p++)
-
+      return 0;
       for (int r = 0; r <= size; r++)
       for (int s = 0; s <= size; s++)
       for (int t = 0; t <= size; t++)
       for (int u = 0; u <= size; u++)for (int v = 0; v <= size; v++)
-      
+      return 0;
       for (int w = 0; w <= size; w++)
       for (int x = 0; x <= size; x++)
       for (int y = 0; y <= size; y++)
       for (int z = 0; z <= size; z++)
-      return 0 
+      return 0
 ;}
