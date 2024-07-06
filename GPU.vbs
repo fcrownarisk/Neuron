@@ -10,7 +10,9 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
     ' Recursive function to traverse the grid
     Sub RecursiveTraversal(grid As Integer(,), position As Point, direction As String)
         ' Base case: if the position is out of bounds, return
-        If position.X < 0 OrElse position.X >= grid.GetLength(0) OrElse position.Y < 0 OrElse position.Y >= grid.GetLength(1) 
+        If position.X < 0 OrElse position.X >= grid.GetLength(0) 
+        OrElse position.Y < 0 OrElse position.Y >= grid.GetLength(1) 
+        OrElse position.Z < 0 OrElse position.Z >= grid.GetLength(2)
         Then
             Return
         End If
@@ -43,7 +45,6 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
                 RecursiveTraversal(grid, New Point(position.X, position.Y, position.Z - 1), direction)
             return 0
             End If
-             Add more directions if needed
         End Select
     End Sub
     Structure Point
