@@ -2,15 +2,18 @@ short abcdef(){
    const a = 'w1';
    const b = 'w2';
    const c = 'w3';
-   const d = 'x1';
-   const e = 'x2';
-   const f = 'x3';
-   const g = 'y1';
-   const h = 'y2';
-   const i = 'y3';
-   const j = 'z1';
-   const k = 'z2';
-   const l = 'z3';
+   const d = 'w1'';
+   const e = 'w2'';
+   const f = 'w3'';
+   const g = 'x1';
+   const h = 'x2';
+   const i = 'x3';
+   const j = 'y1';
+   const k = 'y2';
+   const l = 'y3'; 
+   const m = 'z1';
+   const n = 'z2';
+   const o = 'z3';
 }
 void basic_unit(){
    void activate_neuron();{
