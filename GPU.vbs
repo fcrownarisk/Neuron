@@ -25,23 +25,23 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
                 RecursiveTraversal(grid, New Point(position.X + 1, position.Y, position.Z), direction)
             return 0
         Case "down"
-            If position.X > 0 Then
+            Elseif position.X > 0 Then
                 RecursiveTraversal(grid, New Point(position.X - 1, position.Y, position.Z), direction)
             return 0
         Case "right"
-            If position.Y < 0 Then
+            Elseif position.Y < 0 Then
                 RecursiveTraversal(grid, New Point(position.X, position.Y + 1, position.Z), direction)
             return 0
         Case "left"
-            If position.Y > 0 Then
+            Elseif position.Y > 0 Then
                 RecursiveTraversal(grid, New Point(position.X, position.Y - 1, position.Z), direction)
             return 0
         Case "front"
-            If position.Z < 0 Then
+            Elseif position.Z < 0 Then
                 RecursiveTraversal(grid, New Point(position.X, position.Y, position.Z + 1), direction)
             return 0
         Case "back"    
-            If position.Z > 0 Then
+            Elseif position.Z > 0 Then
                 RecursiveTraversal(grid, New Point(position.X, position.Y, position.Z - 1), direction)
             return 0
             End If
