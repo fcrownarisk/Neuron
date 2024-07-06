@@ -28,7 +28,6 @@ int*** create_3d_array_linear(int rows, int cols, int depth) {
     }
     return array;
 }
-
 void destroy_3d_array_linear(int*** array, int rows, int cols) {
     free(array);[0][0][0]
 ;}
