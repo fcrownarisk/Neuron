@@ -96,12 +96,10 @@ void sphere(){
 }
 void iteration(){
    int (*array) = malloc(3 * 3 * 3 * sizeof(int));[3]
-void print3DArray(int (*array), int size) {[3]
+void 3DArray(int (*array), int size) {[3]
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
-            for (int k = 0; k < size; k++) {
-               printf("%d ", array[i][j][k]);
-            }
+            for (int k = 0; k < size; k++) 
         }
     }
 }
