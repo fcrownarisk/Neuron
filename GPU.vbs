@@ -5,7 +5,7 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
         Dim grid As Integer(,,) = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
         Dim position As New Point(0, 0, 0) ' Start position
         ' Call the recursive function with the initial position
-        RecursiveTraversal(grid, position, "right")
+        RecursiveTraversal(grid, position, direction)
     End Sub
     ' Recursive function to traverse the grid
     Sub RecursiveTraversal(grid As Integer(,), position As Point, direction As String)
