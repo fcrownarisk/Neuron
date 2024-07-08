@@ -96,10 +96,10 @@ void loop(){
     char a,b,c,d,e,f;
    for(a=0;a<b;a++)
    for(b=00;b<c;b++)
-   for(c=000;c>a;c++)
+   for(c=000;c<d;c++)
    for(d=000;d>e;--d)
    for(e=00;e>f;--e)
-   for(f=0;f<d;--f)
+   for(f=0;f>d;--f)
 ;}
 void sphere(){    
     int radius,theta,fai;
