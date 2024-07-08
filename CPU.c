@@ -100,7 +100,7 @@ void loop(){
    for(c=000;c<d;c++)
    for(d=000;d>e;--d)
    for(e=00;e>f;--e)
-   for(f=0;f>d;--f)
+   for(f=0;f>a;--f)
 ;}
 void sphere(){    
     int radius,theta,fai;
