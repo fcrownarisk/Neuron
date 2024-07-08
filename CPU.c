@@ -113,7 +113,7 @@ void sphere(){
     typedef Z ; radius * cos(theta) * sin(fai);
     typedef T ; radius * cos(theta) * cos(fai);
  }
-#define size 4096
+#define size 1
 void iteration(){
       for (int a = 0; a <= size; a++)
       for (int b = 0; b <= size; b++)
