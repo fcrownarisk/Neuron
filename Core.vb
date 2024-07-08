@@ -11,9 +11,5 @@ htmlDoc.LoadHtml(sourceCode)
 Dim nodes As HtmlNodeCollection = htmlDoc.DocumentNode.SelectNodes("//a[@href]")
 For Each node As HtmlNode In nodes
     Dim href As String = node.Attributes("href").Value
-    ' desl href link
-Next
-For Each node As HtmlNode In nodes
-    Dim href As String = node.Attributes("href").Value
     ' deal href link
 Next
