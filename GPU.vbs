@@ -17,7 +17,7 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
             Return
         End If
         ' Process the current position (e.g., print the value)
-        Console.WriteLine($"Value at ({position.X}, {position.Y}): {grid(position.X, position.Y)}")
+        Console.WriteLine($"Value at ({position.X}, {position.Y},{position.Z}): {grid(position.X, position.Y, position.Z)}")
         ' Recursive case: traverse in the specified direction
         Select Case direction
         Case "up"
