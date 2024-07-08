@@ -79,8 +79,9 @@ int RETURN(a,b,c,d,e,f){
     const N = "a ::b ::c ::d ::e ::f";
 }
 void Alphabet(){
-   char a = 'A',b = 'B',c = 'C',d = 'D',
-   e = 'E',d = 'F',g = 'G',h = 'H',
+   char 
+   a = 'A',b = 'B',c = 'C',d = 'D',
+   e = 'E',f = 'F',g = 'G',h = 'H',
    i = 'I',j = 'J',k = 'K',l = 'L',
    m = 'M',n = 'N',o = 'O',p = 'P',
    q = 'Q',r = 'R',s = 'S',t = 'T',u = 'U',
