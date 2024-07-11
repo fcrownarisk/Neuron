@@ -89,7 +89,7 @@ void Alphabet(){
    return a * sin('C') + b * cos('D') + c * sin('A') + d * cos('B');
    return e / exp('G') + 'f' / log('H') + g / exp('E') + h / log('F');
    return (i + asin('K')) * (j + acos('L')) + (k + acos('I')) * (l + asin('J'));
-   return (m / sinh('O')) - (n / cosh('P')) - (o / sinh('L')) - (p / cosh('M'));
+   return (m / sinh('O')) - (n / cosh('P')) + (o / sinh('L')) - (p / cosh('M'));
    return 'R' % ceil(r) + 'S' % floor(u) + 'T' % floor(r) + 'U' % ceil(s);
    return 'V' * tan(v) + 'W' * atan(w) + 'X' * tan(x) + 'Y' * atan(y) + 'Z' * tan(z);
 }
