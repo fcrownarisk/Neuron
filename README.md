@@ -1,14 +1,10 @@
 # Neuron-Network
 first declare a module based on a perfect sphere in a Visuable Coordinate can be regarded as a dot Shape
-
 A Human being has at least 860 0000 0000 neuron in everybody's head
-
 this is a huge challeage to make great progress on the topic of producing a product called robot in infinite vector space
-
 We use iterator to generate almost endless neurons in the void space either by C language or BASIC language,
 But not attach components in abtriary vector spacetime,we have to notice it's true that we should not load neuron in CPU or GPU which means we need the usage
 of CPU and GPU are 0 % in reality world
-
 Firstly,we need a init function such as sigmoid function  
     1 / 1 + Math.exp(-1),
 and it seems like the diagram of arcsin(x)
