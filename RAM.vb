@@ -1,5 +1,4 @@
 Imports System.Runtime.InteropServices
-
 Public Class RAMSimulator
     Private ramArray As Byte()
     Public Sub New(sizeInBytes As Integer)
