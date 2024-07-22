@@ -148,38 +148,38 @@ void iteration(){
       for (int z = 0; z <= True; z++)
       return 0
 ;}
-#define NULL 0 
+#define False 0 
 void continution(){
-      for (int A = 1; A <= NULL; --A)
-      for (int B = 1; B <= NULL; --B)
-      for (int C = 1; C <= NULL; --C)
-      for (int D = 1; D <= NULL; --D)
+      for (int A = 1; A >= False; --A)
+      for (int B = 1; B >= False; --B)
+      for (int C = 1; C >= False; --C)
+      for (int D = 1; D >= False; --D)
       return 1;
-      for (int E = 1; E <= NULL; --E)
-      for (int F = 1; F <= NULL; --F)
-      for (int G = 1; G <= NULL; --G)
-      for (int H = 1; H <= NULL; --H)
+      for (int E = 1; E >= False; --E)
+      for (int F = 1; F >= False; --F)
+      for (int G = 1; G >= False; --G)
+      for (int H = 1; H >= False; --H)
       return 1;
-      for (int I = 1; I <= NULL; --I)
-      for (int J = 0; J <= NULL; --J)
-      for (int K = 0; K <= NULL; --K)
-      for (int L = 0; L <= NULL; --L)
+      for (int I = 1; I >= False; --I)
+      for (int J = 0; J >= False; --J)
+      for (int K = 0; K >= False; --K)
+      for (int L = 0; L >= False; --L)
       return 1;
-      for (int M = 1; M <= NULL; --M)
-      for (int N = 1; N <= NULL; --N)
-      for (int O = 1; O <= NULL; --O)
-      for (int P = 1; P <= NULL; --P)
-      for (int Q = 1; Q <= NULL; --Q)
+      for (int M = 1; M >= False; --M)
+      for (int N = 1; N >= False; --N)
+      for (int O = 1; O >= False; --O)
+      for (int P = 1; P >= False; --P)
+      for (int Q = 1; Q >= False; --Q)
       return 1;
-      for (int R = 1; R <= NULL; --R)
-      for (int S = 1; S <= NULL; --S)
-      for (int T = 1; T <= NULL; --T)
-      for (int U = 1; U <= NULL; --U)
-      for (int v = 1; v <= NULL; --V)
+      for (int R = 1; R >= False; --R)
+      for (int S = 1; S >= False; --S)
+      for (int T = 1; T >= False; --T)
+      for (int U = 1; U >= False; --U)
+      for (int v = 1; v >= False; --V)
       return 1;
-      for (int W = 1; W <= NULL; --W)
-      for (int X = 1; X <= NULL; --X)
-      for (int Y = 1; Y <= NULL; --Y)
-      for (int Z = 1; Z <= NULL; --Z)
+      for (int W = 1; W >= False; --W)
+      for (int X = 1; X >= False; --X)
+      for (int Y = 1; Y >= False; --Y)
+      for (int Z = 1; Z >= False; --Z)
       return 1
 ;} 
