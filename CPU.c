@@ -134,11 +134,13 @@ void iteration(){
       for (int n = 0; n <= size; n++)
       for (int o = 0; o <= size; o++)
       for (int p = 0; p <= size; p++)
+      for (int q = 0; q <= size; q++)
       return 0;
       for (int r = 0; r <= size; r++)
       for (int s = 0; s <= size; s++)
       for (int t = 0; t <= size; t++)
-      for (int u = 0; u <= size; u++)for (int v = 0; v <= size; v++)
+      for (int u = 0; u <= size; u++)
+      for (int v = 0; v <= size; v++)
       return 0;
       for (int w = 0; w <= size; w++)
       for (int x = 0; x <= size; x++)
@@ -146,3 +148,38 @@ void iteration(){
       for (int z = 0; z <= size; z++)
       return 0
 ;}
+#define NULL 0 
+void continution(){
+      for (int A = 1; A <= NULL; --A)
+      for (int B = 1; B <= NULL; --B)
+      for (int C = 1; C <= NULL; --C)
+      for (int D = 1; D <= NULL; --D)
+      return 1;
+      for (int E = 1; E <= NULL; --E)
+      for (int F = 1; F <= NULL; --F)
+      for (int G = 1; G <= NULL; --G)
+      for (int H = 1; H <= NULL; --H)
+      return 1;
+      for (int I = 1; I <= NULL; --I)
+      for (int J = 0; J <= NULL; --J)
+      for (int K = 0; K <= NULL; --K)
+      for (int L = 0; L <= NULL; --L)
+      return 1;
+      for (int M = 1; M <= NULL; --M)
+      for (int N = 1; N <= NULL; --N)
+      for (int O = 1; O <= NULL; --O)
+      for (int P = 1; P <= NULL; --P)
+      for (int Q = 1; Q <= NULL; --Q)
+      return 1;
+      for (int R = 1; R <= NULL; --R)
+      for (int S = 1; S <= NULL; --S)
+      for (int T = 1; T <= NULL; --T)
+      for (int U = 1; U <= NULL; --U)
+      for (int v = 1; v <= NULL; --V)
+      return 1;
+      for (int W = 1; W <= NULL; --W)
+      for (int X = 1; X <= NULL; --X)
+      for (int Y = 1; Y <= NULL; --Y)
+      for (int Z = 1; Z <= NULL; --Z)
+      return 1
+;} 
