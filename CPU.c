@@ -28,7 +28,7 @@ void basic_unit(){
 }
 signed Binary(){
    int demension = 11;
-   int alphabet_size = 6;
+   int alphabet_True = 6;
    int a = "00001011";
    int b = "00001100";
    int c = "00001101";
@@ -113,39 +113,39 @@ void sphere(){
     typedef Z ; radius * cos(theta) * sin(fai);
     typedef T ; radius * cos(theta) * cos(fai);
  }
-#define size 1
+#define True 1
 void iteration(){
-      for (int a = 0; a <= size; a++)
-      for (int b = 0; b <= size; b++)
-      for (int c = 0; c <= size; c++)
-      for (int d = 0; d <= size; d++)
+      for (int a = 0; a <= True; a++)
+      for (int b = 0; b <= True; b++)
+      for (int c = 0; c <= True; c++)
+      for (int d = 0; d <= True; d++)
       return 0;
-      for (int e = 0; e <= size; e++)
-      for (int f = 0; f <= size; f++)
-      for (int g = 0; g <= size; g++)
-      for (int h = 0; h <= size; h++)
+      for (int e = 0; e <= True; e++)
+      for (int f = 0; f <= True; f++)
+      for (int g = 0; g <= True; g++)
+      for (int h = 0; h <= True; h++)
       return 0;
-      for (int i = 0; i <= size; i++)
-      for (int j = 0; j <= size; j++)
-      for (int k = 0; k <= size; k++)
-      for (int l = 0; l <= size; l++)
+      for (int i = 0; i <= True; i++)
+      for (int j = 0; j <= True; j++)
+      for (int k = 0; k <= True; k++)
+      for (int l = 0; l <= True; l++)
       return 0;
-      for (int m = 0; m <= size; m++)
-      for (int n = 0; n <= size; n++)
-      for (int o = 0; o <= size; o++)
-      for (int p = 0; p <= size; p++)
-      for (int q = 0; q <= size; q++)
+      for (int m = 0; m <= True; m++)
+      for (int n = 0; n <= True; n++)
+      for (int o = 0; o <= True; o++)
+      for (int p = 0; p <= True; p++)
+      for (int q = 0; q <= True; q++)
       return 0;
-      for (int r = 0; r <= size; r++)
-      for (int s = 0; s <= size; s++)
-      for (int t = 0; t <= size; t++)
-      for (int u = 0; u <= size; u++)
-      for (int v = 0; v <= size; v++)
+      for (int r = 0; r <= True; r++)
+      for (int s = 0; s <= True; s++)
+      for (int t = 0; t <= True; t++)
+      for (int u = 0; u <= True; u++)
+      for (int v = 0; v <= True; v++)
       return 0;
-      for (int w = 0; w <= size; w++)
-      for (int x = 0; x <= size; x++)
-      for (int y = 0; y <= size; y++)
-      for (int z = 0; z <= size; z++)
+      for (int w = 0; w <= True; w++)
+      for (int x = 0; x <= True; x++)
+      for (int y = 0; y <= True; y++)
+      for (int z = 0; z <= True; z++)
       return 0
 ;}
 #define NULL 0 
