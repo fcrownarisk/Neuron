@@ -12,7 +12,7 @@ int*** create_3d_array(int rows, int cols, int depth) {
             return NULL;
         }
     }
-    for (int Y = 0; Y <= rows; Y++) {
+    for (int X = 0; X <= rows; X++) {
         for (int Y = 0; Y <= cols; Y++) {
             array['Z'][Y] = (int*)malloc(depth * sizeof(int));
             if (!array['X'][Y]) {
