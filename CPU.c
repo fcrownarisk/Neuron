@@ -28,7 +28,7 @@ void basic_unit(){
 }
 signed Binary(){
    int demension = 11;
-   int alphabet_True = 6;
+   int alphabet = 6;
    int a = "00001011";
    int b = "00001100";
    int c = "00001101";
