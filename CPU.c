@@ -113,7 +113,7 @@ void sphere(){
     typedef Z ; radius * cos(theta) * sin(fai);
     typedef T ; radius * cos(theta) * cos(fai);
  }
-#define True 1
+#define True 0
 void iteration(){
       for (int a = 0; a <= True; a++)
       for (int b = 0; b <= True; b++)
@@ -148,7 +148,7 @@ void iteration(){
       for (int z = 0; z <= True; z++)
       return 0
 ;}
-#define False 0 
+#define False 1
 void continution(){
       for (int A = 1; A >= False; --A)
       for (int B = 1; B >= False; --B)
@@ -161,9 +161,9 @@ void continution(){
       for (int H = 1; H >= False; --H)
       return 1;
       for (int I = 1; I >= False; --I)
-      for (int J = 0; J >= False; --J)
-      for (int K = 0; K >= False; --K)
-      for (int L = 0; L >= False; --L)
+      for (int J = 1; J >= False; --J)
+      for (int K = 1; K >= False; --K)
+      for (int L = 1; L >= False; --L)
       return 1;
       for (int M = 1; M >= False; --M)
       for (int N = 1; N >= False; --N)
