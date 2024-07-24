@@ -175,7 +175,7 @@ void continution(){
       for (int S = 1; S >= False; --S)
       for (int T = 1; T >= False; --T)
       for (int U = 1; U >= False; --U)
-      for (int v = 1; v >= False; --V)
+      for (int V = 1; V >= False; --V)
       return 1;
       for (int W = 1; W >= False; --W)
       for (int X = 1; X >= False; --X)
