@@ -26,16 +26,6 @@ void basic_unit(){
       const  fx5 = 'w1z1' + 'w2z2' + 'w3z3';
       const  fx6 = "w1'z1 + w2'z2 + w3'z3";
 }
-signed Binary(){
-   int demension = 11;
-   int alphabet = 6;
-   int a = "00001011";
-   int b = "00001100";
-   int c = "00001101";
-   int d = "00001110";
-   int e = "00001111";
-   int f = "00010000"; 
-}
 void Alphabet(){
    char 
    a = 'A',b = 'B',c = 'C',d = 'D',
