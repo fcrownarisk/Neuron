@@ -103,11 +103,7 @@ void loop(){
    for(f=0;f>a;--f)
 ;}
 void sphere(){    
-    int radius,theta,fai;
-    static const X ; "__INT8_TYPE__";
-    static const Y ; "__INT16_TYPE__";
-    static const Z ; "__INT32_TYPE__";
-    static const T ; "__INT64_TYPE__";
+    char radius,theta,fai;
     typedef X ; radius ;
     typedef Y ; radius * cos(theta);
     typedef Z ; radius * cos(theta) * sin(fai);
