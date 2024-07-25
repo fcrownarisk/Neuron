@@ -1,3 +1,4 @@
+#include "bin.c"
 int RETUrN(){
    char R,E,T,U,r,N;
    char a,b,c,d,e,f;
