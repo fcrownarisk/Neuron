@@ -1,3 +1,4 @@
+#include "Bool.c"
 short abcdef(){
    const a = 'w1';
    const b = 'w2';
