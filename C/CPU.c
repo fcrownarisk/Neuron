@@ -7,15 +7,6 @@ short abcdef(){
    const d = "w1'";
    const e = "w2'";
    const f = "w3'";
-   const g = 'x1';
-   const h = 'x2';
-   const i = 'x3';
-   const j = 'y1';
-   const k = 'y2';
-   const l = 'y3'; 
-   const m = 'z1';
-   const n = 'z2';
-   const o = 'z3';
 }
 void basic_unit(){
    void activate_neuron();{
