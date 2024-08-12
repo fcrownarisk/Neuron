@@ -1,3 +1,4 @@
+#include "CPU.c"
 #include "./Vim/ePI.ts"
 #include "./Vim/XYZ.ts"
 void function(){
