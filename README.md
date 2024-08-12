@@ -9,10 +9,11 @@ But not attach components in abtriary vector spacetime,we have to notice it's tr
 the usage of CPU and GPU are 0 % in reality world
 
 Firstly,we need a init function such as sigmoid function  
+
     1 / 1 + Math.exp(-1),
 and it seems like the diagram of arcsin(x)
-
 to activate the whole neuron 
+
     x^7 + a * x^3 + b * x^2 + c * x + 1 = 0
 It suppose to be exits such a statement: a = w1, b = w2 , c = w3,So that
 we could activate the entire neural network by typing
