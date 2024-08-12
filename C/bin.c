@@ -1,4 +1,4 @@
-Signed Binary(){
+signed Binary(){
    int demension = 11;
    int alphabet = 6;
    int a = "00001011";
