@@ -7,6 +7,7 @@ short abcdef(){
    const d = "w1'";
    const e = "w2'";
    const f = "w3'";
+  
 }
 void basic_unit(){
    void activate_neuron();{
