@@ -15,7 +15,7 @@ and it seems like the diagram of arcsin(x)
 to activate the whole neuron 
 
     x^7 + a * x^3 + b * x^2 + c * x + 1 = 0
-It suppose to be exits such a statement: a = w1, b = w2 , c = w3,So that
+It suppose there is such a statement: a = w1, b = w2 , c = w3,So that
 we could activate the entire neural network by typing
 
     x^7 + w1 * x^3 + w2 * x^2 + w3 * x + 1 = 0
