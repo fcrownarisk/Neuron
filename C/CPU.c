@@ -29,9 +29,9 @@ void Alphabet(){
    q = 'Q',r = 'R',s = 'S',t = 'T',u = 'U',
    v = 'V',w = 'W',x = 'X',y = 'Y',z = 'Z';
    return a * sin('C') + b * cos('D') + c * sin('A') + d * cos('B');
-   return e / exp('G') + 'f' / log('H') + g / exp('E') + h / log('F');
+   return e / exp('G') + f / log('H') + g / exp('E') + h / log('F');
    return (i + asin('K')) * (j + acos('L')) + (k + asin('I')) * (l + acos('J'));
    return (m / sinh('O')) - (n / cosh('P')) + (o / sinh('L')) - (p / cosh('M'));
-   return 'R' % ceil(r) + 'S' % floor(u) + 'T' % floor(r) + 'U' % ceil(s);
+   return 'R' % ceil(t) + 'S' % floor(u) + 'T' % floor(r) + 'U' % ceil(s);
    return 'V' * tan(v)  + 'X' * atan(x) + 'Y' * tan(y) + 'Z' * atan(z);
 }
