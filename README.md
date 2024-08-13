@@ -26,5 +26,5 @@ we could activate the entire neural network by typing
     
 We assume to input a simple function f(x) = w1x1 + w2x2 + w3x3 
 meanwhile,We suppose the gradle of math function of basic neuron is 
-arccos(-1/3) = 109"28' degree 
+arccos(-1/3) = 109"24' degree 
 Understand the principle of the chemistry matter is Alkene,it's exactly a CH4 
