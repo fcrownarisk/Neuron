@@ -10,7 +10,7 @@ the usage of CPU and GPU are 0 % in reality world
 
 Firstly,we need a init function such as sigmoid function  
 
-    1 / 1 + Math.exp(-1),
+    1 / 1 + Math.exp(-1)
 and it seems like the diagram of arcsin(x)
 to activate the whole neuron 
 
