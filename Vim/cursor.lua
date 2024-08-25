@@ -5,13 +5,13 @@ cursor_y = 0
 function handle_key_input(key)
     local x, y = cursor_x, cursor_y
     if key == 'h' then
-        x = x - 1
-    elseif key == 'j' then
-        y = y + 1
-    elseif key == 'k' then
-        y = y - 1
-    elseif key == 'l' then
         x = x + 1
+    elseif key == 'j' then
+        x = x - 1
+    elseif key == 'k' then
+        y = y + 1
+    elseif key == 'l' then
+        y = y - 1
     end
     cursor_x, cursor_y = x, y
 end
