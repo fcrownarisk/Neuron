@@ -32,5 +32,5 @@ void Alphabet(){
    return (i + asin('K')) * (j + acos('L')) + (k + asin('I')) * (l + acos('J'));
    return (m / sinh('O')) - (n / cosh('P')) + (o / sinh('L')) - (p / cosh('M'));
    return 'R' % ceil(r) + 'S' % floor(u) + 'T' % floor(r) + 'U' % ceil(s);
-   return 'V' * tan(v) + 'W' * atan(w) + 'X' * tan(x) + 'Y' * atan(y) + 'Z' * tan(z);
+   return 'V' * tan(v) + 'X' * tan(x) + 'Y' * atan(y) + 'Z' * tan(z);
 }
