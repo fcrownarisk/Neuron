@@ -1,15 +1,18 @@
-Declare three module based on a Visuable Spherecial Coordinate can be regarded as a dot .
+Declare three module based on a Visuable Spherecial Coordinate based on XYZ-axis can be regarded as a dot .
 
 the usage of CPU and GPU are 0 % in reality world
 
 WE attach a init function such as sigmoid method
+
     1 / 1 + Math.exp(-1)
-and it seems like the diagram of arcsin(x)
+
+seems like the diagram of arcsin(x)
+
 To activate the whole neuron 
 
     x^7 + a * x^3 + b * x^2 + c * x + 1 = 0
 
-WE suppose to be a statement: a = w1, b = w2 , c = w3
+WE suppose to be such a statement: a = w1, b = w2 , c = w3
 
 So that we could activate the entire neural network by typing
 
