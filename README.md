@@ -9,10 +9,13 @@ But not attach components in abtriary vector spacetime,we have to notice it's tr
 the usage of CPU and GPU are 0 % in reality world
 
 Firstly,we need a init function such as sigmoid function  
-    1 / 1 + Math.exp(-1),
-and it seems like the diagram of arcsin(x)
+
+    1 / 1 + Math.exp(-1)
+
+and its graph seems like the diagram of arcsin(x)
 
 to activate the whole neuron 
+
     x^7 + a * x^3 + b * x^2 + c * x + 1 = 0
 
 We assume to input a simple function f(x) = w1x1 + w2x2 + w3x3 
