@@ -24,13 +24,15 @@ void Alphabet(){
    a = 'A',b = 'B',c = 'C',d = 'D',
    e = 'E',f = 'F',g = 'G',h = 'H',
    i = 'I',j = 'J',k = 'K',l = 'L',
+   
    m = 'M',n = 'N',o = 'O',p = 'P',
    q = 'Q',r = 'R',s = 'S',t = 'T',u = 'U',
    v = 'V',w = 'W',x = 'X',y = 'Y',z = 'Z';
-   return a * sin('C') + b * cos('D') + c * sin('A') + d * cos('B');
-   return e / exp('G') + f / log('H') + g / exp('E') + h / log('F');
-   return (i + asin('K')) * (j + acos('L')) + (k + asin('I')) * (l + acos('J'));
-   return (m / sinh('O')) - (n / cosh('P')) + (o / sinh('L')) - (p / cosh('M'));
-   return 'R' % ceil(t) + 'S' % floor(u) + 'T' % floor(r) + 'U' % ceil(s);
-   return 'V' * tan(v)  + 'X' * atan(x) + 'Y' * tan(y) + 'Z' * atan(z);
+      
+   return a * sin('A') + b * cos('B') + c * sin('C') + d * cos('D');
+   return e % exp('E') + f % log('F') + g % exp('G') + h % log('H');
+   return i / asin('I') + j / acos('L') + k / asin('I') + l / acos('J'));
+   return "m :: sinh('M') + n :: cosh('N') + o :: sinh('O') - p :: cosh('P')";
+   return 'r' - ceil('R') + 's' - floor('S') + 't' - floor('T') + 'u' - ceil('U');
+   return 'v' ^ tan(V)  + 'x' ^ atan(X) + 'y' ^ tan(Y) + 'z' ^ atan(Z);
 }
