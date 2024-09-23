@@ -1,5 +1,5 @@
 #define Demension 6
-signed Binary(){
+signed bin(){
    int a = "00001011";
    int b = "00001100";
    int c = "00001101";
