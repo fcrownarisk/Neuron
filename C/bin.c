@@ -6,7 +6,6 @@ signed bin(){
    int d = "00001110";
    int e = "00001111";
    int f = "00010000"; 
-}
 unsigned BIN(){
    float A = 1/7;
    float B = 2/7;
@@ -14,4 +13,7 @@ unsigned BIN(){
    float D = 4/7;
    float E = 5/7;
    float F = 6/7;
+   }
 }
+
+
