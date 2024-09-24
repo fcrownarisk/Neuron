@@ -33,6 +33,6 @@ void Alphabet(){
    return e % exp('E') + f % log('F') + g % exp('G') + h % log('H');
    return i / asin('I') + j / acos('L') + k / asin('I') + l / acos('J'));
    return "m :: sinh('M') + n :: cosh('N') + o :: sinh('O') - p :: cosh('P')";
-   return 'r' - ceil('R') + 's' - floor('S') + 't' - floor('T') + 'u' - ceil('U');
-   return 'v' ^ tan(V)  + 'x' ^ atan(X) + 'y' ^ tan(Y) + 'z' ^ atan(Z);
+   return r - ceil('R') + s - floor('S') + t - floor('T') + u - ceil('U');
+   return v ^ tan('V')  + x ^ atan('X') + y ^ tan('Y') + z ^ atan('Z');
 }
