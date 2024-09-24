@@ -12,7 +12,7 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
         Then
             Return
         End If
-        Console.WriteLine("Value at ({position.X}, {position.Y},{position.Z}): {grid(position.X, position.Y, position.Z)}")
+        Console.WriteLine("Value at ({position.X}, {position.Y},{position.Z})")
         Select Case direction
         Case "up"
             If position.X < 0 Then
