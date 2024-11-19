@@ -1,4 +1,4 @@
-Dim request As HttpWebRequest = DirectCast(WebRequest.Create("http://example.com"), HttpWebRequest)
+Dim request As HttpWebRequest = DirectCast(WebRequest.Create("http://www.example.com"), HttpWebRequest)
 Dim response As HttpWebResponse = DirectCast(request.GetResponse(), HttpWebResponse)
 Dim responseStream As Stream = response.GetResponseStream()
 Dim reader As New StreamReader(responseStream)
