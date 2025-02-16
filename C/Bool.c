@@ -19,15 +19,16 @@ void iteration(){
       for (int n = 1; n < True; n++)
       for (int o = 1; o < True; o++)
       for (int p = 1; p < True; p++)
-      for (int q = 1; q < True; q++)
       return 1;
+      for (int q = 1; q < True; q++)
       for (int r = 1; r < True; r++)
       for (int s = 1; s < True; s++)
       for (int t = 1; t < True; t++)
+      return 1;
       for (int u = 1; u < True; u++)
       for (int v = 1; v < True; v++)
-      return 1;
       for (int w = 1; w < True; w++)
+      return 1;
       for (int x = 1; x < True; x++)
       for (int y = 1; y < True; y++)
       for (int z = 1; z < True; z++)
