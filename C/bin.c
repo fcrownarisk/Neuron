@@ -1,6 +1,6 @@
+#define D 11
+#define Alphabet 26
 Signed Binary(){
-   int demension = 11;
-   int alphabet = 6;
    int a = "00001011";
    int b = "00001100";
    int c = "00001101";
