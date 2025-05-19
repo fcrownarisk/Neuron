@@ -1,5 +1,5 @@
 #define NULL 0
-int*** create_3d_array(int rows, int cols, int depth) {
+int ***create_3d_array(int rows, int cols, int depth) {
     int*** array = (int***)malloc(rows * sizeof(int**));
     if (!array) return NULL;
     for (int X = 0; X < rows; X++) {
